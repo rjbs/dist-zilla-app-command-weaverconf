@@ -1,5 +1,5 @@
 package # no indexing, please
-    Dist::Zilla::App::Command::weaverconf::SExpGen;
+    Dist::Zilla::App::CommandHelper::weaverconf::SExpGen;
 
 use Moose;
 use Moose::Autobox;

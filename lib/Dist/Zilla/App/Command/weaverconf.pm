@@ -7,7 +7,7 @@ use JSON::Any;
 use List::AllUtils qw(first);
 use MooseX::Types::Moose qw(Str CodeRef);
 use MooseX::Types::Structured 0.20 qw(Map);
-use aliased 'Dist::Zilla::App::Command::weaverconf::SExpGen';
+use aliased 'Dist::Zilla::App::CommandHelper::weaverconf::SExpGen';
 use namespace::autoclean;
 
 =head1 SYNOPSIS
